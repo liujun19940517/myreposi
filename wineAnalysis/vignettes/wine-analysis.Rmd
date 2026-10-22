@@ -1,0 +1,19 @@
+---
+title: "红酒数据的 PCA 与分类分析报告"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{红酒数据的 PCA 与分类分析报告}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(wineAnalysis)
+```
